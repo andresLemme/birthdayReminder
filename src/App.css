@@ -15,6 +15,10 @@ main{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 
 }
+.contentBox h2{
+  text-align: center;
+  padding-bottom: 10px;
+}
 
 .btn-clear, .btn-all{
   width: 100%;

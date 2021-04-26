@@ -17,7 +17,7 @@ function App() {
   return (
     <main>
     <section className="contentBox">
-     <h3>{people.length} birthday today </h3>
+     <h2>{people.length} birthday today </h2>
      <List people={people}/>
       <button className="btn-clear" onClick={handleClear}>Borrar lista</button>
       <button className="btn-all" onClick={handleAll}>Agregar lista</button>
