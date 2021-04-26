@@ -1,0 +1,26 @@
+.article-box{
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.article-box .img-avatar{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+ 
+}
+.box-info{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.box-info h4{
+  font-size: 20px;
+}
+
+.box-info p{
+  margin-bottom: 0;
+}

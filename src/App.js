@@ -16,11 +16,11 @@ function App() {
   }
   return (
     <main>
-    <section>
+    <section className="contentBox">
      <h3>{people.length} birthday today </h3>
      <List people={people}/>
-      <button onClick={handleClear}>Borrar lista</button>
-      <button onClick={handleAll}>Agregar lista</button>
+      <button className="btn-clear" onClick={handleClear}>Borrar lista</button>
+      <button className="btn-all" onClick={handleAll}>Agregar lista</button>
 
     </section>
     </main>
