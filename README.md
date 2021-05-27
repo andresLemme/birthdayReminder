@@ -1,6 +1,6 @@
 
 
-## birthdayreminder\
+## birthdayreminder
 Conceptos aplicados:\
 useState()\
 import / export\
